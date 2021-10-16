@@ -1,2 +1,2 @@
 # _scff
-Find comments for source code.
+Finding сomments in source code 
