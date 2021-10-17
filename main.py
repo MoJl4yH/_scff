@@ -8,8 +8,10 @@ def regularJavaComments(input_dir,analyse_file_name, output_dir_name):
         pattern_java = re.compile(r'(//.*?$)|(/\\*.*?\\*/)', re.MULTILINE | re.DOTALL) #Регулярное выражение для поиска комментариев для ЯП Java
         result_comments = pattern_java.findall(f_read.read()) #Ищем комментарии и пишем их в result_comments
         with open(output_name_file, 'a') as f_write:
-            f_write.write(f"********{analyse_file_name}********\n\n\n{str(result_comments)}\n\n\n") #Записываем что нашли в файл с названием,
-                                                                                     #которое передали в качестве аргумента -o
+            f_write.write(f"********{analyse_file_name}********\n\n\n")
+            for coment in result_comments:
+                f_write.write(f"{str(coment)}\n\n\n") #Записываем что нашли в файл с названием,
+                                                      #которое передали в качестве аргумента -o
 
 def regularCssComments(input_dir,analyse_file_name, output_dir_name):
     output_name_file = output_dir_name+"/report_css" #Пишем все в папку, которая указана в опции -o
