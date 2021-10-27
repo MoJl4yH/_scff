@@ -1,8 +1,10 @@
 # scff
-Finding сomments in source code 
+## Finding сomments in source code 
 
 Arguments:
+
   -i I        Input path to source code
+
   -o O        Output name directory for reports
 
 Supported programming languages:
