@@ -1,2 +1,2 @@
-# _scff
+# scff
 Finding сomments in source code 
