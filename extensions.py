@@ -32,17 +32,17 @@ list_ex = [
     ".sublime_metrics",
     ".sublime_session",
     ".xsjs",
-    ".xsjslib"
+    ".xsjslib",
     ".css",  # <--css
     ".c",  # <--C
     ".cats",
     ".h",
     ".idc",
-    ".w"
+    ".w",
     ".cs",  # <--C#
     ".cake",
     ".cshtml",
-    ".csx"
+    ".csx",
     ".cpp",  # <--C++
     ".c++",
     ".cc",
@@ -57,7 +57,7 @@ list_ex = [
     ".inl",
     ".ipp",
     ".tcc",
-    ".tpp"
+    ".tpp",
     ".php",  # <--PHP
     ".aw",
     ".ctp",
@@ -68,6 +68,6 @@ list_ex = [
     ".php5",
     ".phps",
     ".phpt",
-    ".go"  # <--Go
+    ".go",  # <--Go
     ".rs",  # <--Rust
     ".rs.in"]
