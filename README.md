@@ -1,11 +1,9 @@
 # scff
-## Finding сomments in source code 
+### Finding сomments in source code 
 
-Arguments:
-
-  -i I        Input path to source code
-
-  -o O        Output name directory for reports
+Input arguments:
+  * **-i I** ---- Input path to source code
+  * **-o O** ---- Output name directory for reports
 
 Supported programming languages:
   1. Java
@@ -18,4 +16,4 @@ Supported programming languages:
   8. Go
   9. Rust
 
-  [Supported file extensions](extensions.py)
+  [Supported file extensions.](extensions.py)
